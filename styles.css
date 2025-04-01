@@ -61,38 +61,102 @@ p {
     margin: 25px auto;
 }
 
-.menu {
-    background-color: rgba(6,6,6,0.1);
-    border-bottom: 1px solid #2b3346;
-    border-top: 1px solid #2b3346;
-    padding: 10px;
-}
 
-.popup_list {
-    list-style: none;
-}
-.menu-item {
-    display: inline-block;
-    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
-    font-size:24px;
-    color:#333333;
-    margin: 10px;
-}
-
-.menu-item:active {
-    color: #d0021b;
-}
-
-.menu-item:hover {
-    text-decoration: underline;
-    cursor: url('responsive-design/E8E9A56B-53B7-494E-BE52-747EE607EC62/5301AFFB-CEE8-43FC-8F06-FB9785DF6E4A@1x.png'), auto;
-}
-
-.logo {
-    padding: 10px 38px 31px;
-}
 
 @media (max-width: 800px) {
+    body {
+        padding: 10px;
+    }
+
+    .container {
+        max-width: 100%;
+        padding: 0 10px;
+    }
+
+    .section {
+        padding: 0 10px;
+        max-width: 100%;
+    }
+
+    .article h1 {
+        font-size: 36px;
+        margin: 30px 0 20px;
+        line-height: 1.1;
+    }
+
+    .article h2 {
+        font-size: 24px;
+        margin: 40px 0 15px;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 1.5;
+        margin: 0 0 15px;
+    }
+
+    .article img {
+        margin: 15px auto;
+    }
+
+
+    .nav {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    .popup_list {
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 15px;
+    }
+
+    .popup_list img.click {
+        display: none;
+    }
+
+    .highlight-inner,
+    .highlight-outer {
+        font-size: 14px;
+        padding: 1px 3px;
+    }
+
+    .article {
+        margin-bottom: 30px;
+    }
+    .navHeader {
+        background-color: rgba(6,6,6,0.1);
+        border-bottom-color: #2b3346;
+        border-top-color: #2b3346;
+        border: 10px;
+        margin: ;
+    }
+    .popup_list {
+        list-style: none;
+    }
+    .menu-item {
+        margin-right: 30px;
+        font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+        font-size:24px;
+        color:#333333;
+        text-align:left;
+        line-height:36px;
+    }
+
+    .menu-item:active {
+        color: #d0021b;
+    }
+
+    .menu-item:hover {
+        text-decoration: underline;
+        cursor: url('responsive-design/E8E9A56B-53B7-494E-BE52-747EE607EC62/5301AFFB-CEE8-43FC-8F06-FB9785DF6E4A@1x.png'), auto;
+    }
+
+    .logo {
+        padding: 10px 38px 31px;
+    }
+
     .menu-item {
         display: block;
     }
