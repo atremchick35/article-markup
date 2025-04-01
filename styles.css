@@ -2,12 +2,69 @@
 /* Шапка */
 
 
-.popup_list {
-    list-style: none;
-}
+/*.navHeader {*/
+/*    background-color: rgba(6,6,6,0.1);*/
+/*    border-bottom-color: #2b3346;*/
+/*    border-top-color: #2b3346;*/
+/*    border: 10px;*/
+/*    margin: ;*/
+/*}*/
+/*.popup_list {*/
+/*    list-style: none;*/
+/*}*/
+/*.menu-item {*/
+/*    margin-right: 30px;*/
+/*    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;*/
+/*    font-size:24px;*/
+/*    color:#333333;*/
+/*    text-align:left;*/
+/*    line-height:36px;*/
+/*}*/
+
+/*.menu-item:active {*/
+/*    color: #d0021b;*/
+/*}*/
+
+/*.menu-item:hover {*/
+/*    text-decoration: underline;*/
+/*    cursor: url('responsive-design/E8E9A56B-53B7-494E-BE52-747EE607EC62/5301AFFB-CEE8-43FC-8F06-FB9785DF6E4A@1x.png'), auto;*/
+/*}*/
+
+/*.logo {*/
+/*    padding: 10px 38px 31px;*/
+/*}*/
 
 @media (max-width: 800px) {
-/* Тут пиши стили для мобилки.
-    Стили применятся только когда страничка будет ≤800px шириной
- */
+    .navHeader {
+        background-color: rgba(6,6,6,0.1);
+        border-bottom-color: #2b3346;
+        border-top-color: #2b3346;
+        border: 10px;
+        margin: ;
+    }
+    .popup_list {
+        list-style: none;
+    }
+    .menu-item {
+        margin-right: 30px;
+        font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+        font-size:24px;
+        color:#333333;
+        text-align:left;
+        line-height:36px;
+    }
+
+    .menu-item:active {
+        color: #d0021b;
+    }
+
+    .menu-item:hover {
+        text-decoration: underline;
+        cursor: url('responsive-design/E8E9A56B-53B7-494E-BE52-747EE607EC62/5301AFFB-CEE8-43FC-8F06-FB9785DF6E4A@1x.png'), auto;
+    }
+
+    .logo {
+        padding: 10px 38px 31px;
+    }
+
 }
